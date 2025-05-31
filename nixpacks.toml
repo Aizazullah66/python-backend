@@ -1,4 +1,9 @@
+[build]
+# Ensure Nixpacks uses Python
+plan = "python"
+
 [phases.setup]
+# Install OpenCV dependencies
 aptPkgs = ["libgl1", "libglib2.0-0"]
 
 [phases.install]
