@@ -90,7 +90,7 @@ def process_video():
                 'folder': 'processed_videos'
             }
             response = requests.post(
-                'https://api.cloudinary.com/v1_1/YOUR_CLOUD_NAME/video/upload',  # Replace YOUR_CLOUD_NAME
+                'https://api.cloudinary.com/v1_1/dmwaesnu7/video/upload',  # Replace YOUR_CLOUD_NAME
                 files=files,
                 data=data
             )
